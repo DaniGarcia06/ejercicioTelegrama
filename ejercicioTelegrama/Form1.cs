@@ -30,7 +30,7 @@ namespace ejercicioTelegrama
             //Leo el telegrama 
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (cbUrgente.Checked)
+            if (rbUrgente.Checked)
                 tipoTelegrama = 'u';
             //Obtengo el número de palabras que forma el telegrama 
 			char[] chars = { ' ', '.', ',', ';', ':', '?', '\n', '\r' };
